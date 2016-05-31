@@ -1,0 +1,5 @@
+[build]
+target = "x86_64-elf"
+
+[target.x86_64-elf]
+linker = "x86_64-elf-gcc"

@@ -9,6 +9,5 @@ name = "serial"
 path = "src/lib.rs"
 
 [dependencies]
-rust-libcore = "*"
-rlibc = { git = "https://github.com/xClueless/rlibc.git" }
+rlibc = "*"
 pio = { git = "https://github.com/xClueless/pio-rs.git" }
